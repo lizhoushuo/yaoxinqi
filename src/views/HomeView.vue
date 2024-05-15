@@ -2,21 +2,31 @@
   <dv-full-screen-container class="home">
     <div class="decoration"><img src="../assets/imgs/标题.png" alt="" /></div>
     <div class="main">
+      <div>1</div>
+      <div>
+        <WeatHer></WeatHer>
+      </div>
+      <div>
+        <LandParcelDynamic></LandParcelDynamic>
+      </div>
       <div></div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
       <div></div>
       <div></div>
-      <div>10</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   </dv-full-screen-container>
 </template>
 <script>
+import WeatHer from "./Weather/WeatHer.vue"
+import LandParcelDynamic from "./LandParcelDynamic/LandParcelDynamic.vue"
 export default {
+  components: {
+    WeatHer,
+    LandParcelDynamic
+  },
   data() {
     return {}
   }
@@ -29,9 +39,8 @@ export default {
   background-image: url(../assets/imgs/bg\(1\).png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: 0 -19px;
-  position: relative;
 
+  background-color: #081512;
   .decoration {
     width: 100%;
     height: 100px;
@@ -43,7 +52,7 @@ export default {
 }
 .main {
   padding: 0 10px;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 101px);
   display: grid;
   grid-template:
     "a a a d d d d d e e e" 1fr
