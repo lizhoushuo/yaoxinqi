@@ -4,7 +4,11 @@
   </dv-full-screen-container>
 </template>
 <script>
-export default {}
+export default {
+  data() {
+    return {}
+  }
+}
 </script>
 <style lang="scss" scoped>
 .home {
@@ -13,7 +17,7 @@ export default {}
   background-image: url(../assets/百香果数字运营中心/bg\(1\).png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: 0 -19px;
+  background-color: #091813;
   .decoration {
     width: 100%;
     img {
