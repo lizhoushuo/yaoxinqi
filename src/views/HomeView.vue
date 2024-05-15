@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <dv-border-box-8>
-      <!-- <dv-decoration-5 style="width: 100%; height: 130px" class="a"></dv-decoration-5> -->
+      <dv-decoration-5 style="width: 100%; height: 130px" class="a"></dv-decoration-5>
       <PieChart></PieChart>
       <HarvestTwo></HarvestTwo>
     </dv-border-box-8>
