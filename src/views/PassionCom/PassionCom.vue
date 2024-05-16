@@ -12,7 +12,7 @@
           <img src="../../assets/imgs/组 3299@2x.png" alt="" />
           <span>729</span>
         </div>
-        <p>本周预警数</p>
+        <p>本周预222警数</p>
       </div>
       <div class="section-box">
         <div class="section-image">
@@ -26,23 +26,38 @@
           <img src="../../assets/imgs/组 3301@2x.png" alt="" />
           <span>48%</span>
         </div>
-        <p>本周预警数</p>
+        <p>本周预警222数</p>
       </div>
     </section>
     <!-- 尾部 -->
     <footer>
-      <!-- <div class="time">
-        <img src="../../assets/imgs/Rectangle 605.png" alt="" />
+      <!-- 尾部的按钮 -->
+      <div class="time-button">
+        <img src="../../assets/imgs/Rectangle 605@2x.png" alt="" />
         <span>小刘大帅哥</span>
       </div>
+
       <div class="center">
-        <p><font style="">小刘大帅哥</font><font>29</font></p>
-        <p><font>小刘大帅</font><font>17</font></p>
+        <p>
+          <span>小刘大帅哥</span>
+          <span>223</span>
+        </p>
+        <p>
+          <span>小刘大帅</span>
+          <span>2323</span>
+        </p>
       </div>
+
       <div class="right">
-        <p><font style="color: #fff; margin-right: 10px">小刘大帅</font><font>29</font></p>
-        <p><font style="color: #fff; margin-right: 10px">小刘大帅</font><font>217</font></p>
-      </div> -->
+        <p>
+          <span>小刘大帅</span>
+          <span>21</span>
+        </p>
+        <p>
+          <span>小刘大帅</span>
+          <span>21</span>
+        </p>
+      </div>
     </footer>
   </div>
 </template>
@@ -53,31 +68,34 @@
   height: 100%;
   background-color: #317f786f;
   box-shadow: inset 1px 1px 20px #11211c;
-  border-radius: 10px;
+  border-radius: .625rem;
 }
 .Passion-box > header {
   height: 25%;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #317f786f;
-  padding: 0 0 0 15px;
+  border-bottom: .0625rem solid #317f786f;
+  padding: 0 0 0 .9375rem;
 
   img {
-    width: 16px;
-    margin-right: 8px;
+    width: 1rem;
+    margin-right: .5rem;
   }
 }
 section {
-  height: 47%;
+  width: 100%;
+  height: 49%;
   display: flex;
   align-items: center;
-  // text-align: center;
-  justify-content: space-around;
+  // justify-content: space-around;
   border-bottom: 1px solid #317f786f;
 }
 section .section-box {
-  // padding: 15px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+  // text-align: center;
   p {
     // margin-top: 5px;
     color: #fff;
@@ -89,85 +107,124 @@ section .section-box {
 section .section-box .section-image {
   width: 50px;
   // height: 90px;?
-
+  text-align: center;
   position: relative;
 }
 section .section-box .section-image img {
-  width: 100%;
-  margin: auto;
+  width: 95%;
+  // margin: auto;
 }
 section .section-box .section-image span {
   // font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -99%);
   text-align: center;
 }
 
 // 改变每个文字的颜色
 section .section-box:nth-child(1):nth-child(1) .section-image span {
-  font-size: 12px !important;
+  font-size: .75rem !important;
   color: red;
 }
 section .section-box:nth-child(2):nth-child(2) .section-image span {
-  font-size: 12px !important;
+  font-size: .75rem !important;
   color: #34645b;
 }
 section .section-box:nth-child(3):nth-child(3) .section-image span {
-  font-size: 12px !important;
+  font-size: .75rem !important;
   color: #7b7b33;
 }
 
 // 尾部
-// footer {
-//   width: 100%;
-// 	height: 23%;
+footer {
+  width: 100%;
+  height: 28%;
+  font-size: .75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
-//   // height: 100px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-// }
-// footer .time {
-//   width: 23.3%;
-//   position: relative;
-// }
-// footer .time img {
-//   width: 100%;
-// }
-// footer .time span {
-//   width: 100%;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -60%);
-//   text-align: center;
-//   color: #843937;
-// }
-// footer .center {
-//   width: 33.3%;
-//   text-align: center;
-//   // border: 1px solid red;
-// }
-// footer .center p:nth-child(1) font:nth-child(1) {
-// 	font-size: 14px;
-//   margin-right: 10px;
-//   color: #fff;
-// }
-// footer .center p:nth-child(2) font:nth-child(1) {
-//   color: #fff;
-//   margin-right: 10px;
-// }
-// footer .center p:nth-child(1) {
-//   // color: red;
-//   float: right;
-// }
-// footer .center p:nth-child(2) {
-//   // color: red;
-//   float: right;
-// }
-// footer .right {
-//   // border: 1px solid red;
-// }
+footer .time-button {
+  width: 29.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+footer .time-button img {
+  width: 70%;
+  height: 1.875rem;
+	margin-left: 1.25rem;
+  // line-height: 30px;
+}
+footer .time-button span {
+  font-size: .75rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #843937;
+}
+
+.center {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  p:nth-child(1) {
+    display: flex;
+  }
+  p:nth-child(2) {
+    display: flex;
+    color: black;
+  }
+
+  p:nth-child(1) span:nth-child(1) {
+    color: skyblue;
+    width: 5rem;
+    display: block;
+    margin-right: 5px;
+    text-align: right;
+  }
+  p:nth-child(2) span:nth-child(1) {
+    color: blue;
+    width: 5rem;
+    display: block;
+    text-align: right;
+    margin-right: .3125rem;
+  }
+}
+
+.right {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  p:nth-child(1) {
+    display: flex;
+  }
+  p:nth-child(2) {
+    display: flex;
+    color: black;
+  }
+
+  p:nth-child(1) span:nth-child(1) {
+    color: skyblue;
+    width: 5rem;
+    display: block;
+    margin-right: 5px;
+    text-align: right;
+  }
+  p:nth-child(2) span:nth-child(1) {
+    color: blue;
+    width: 5rem;
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+  }
+}
 </style>
