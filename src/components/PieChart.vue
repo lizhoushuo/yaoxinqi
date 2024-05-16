@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <div class="title">
-      <img src="../assets/百香果数字运营中心/容器 47@3x.png" alt="" />
+      <img src="../assets/imgs/容器 47@3x.png" alt="" />
       <div class="tit">土壤肥力分析</div>
     </div>
     <div id="myChart2" style="width: 100%; height: 100%"></div>
@@ -50,7 +50,7 @@ export default {
           {
             type: "pie",
             center: ["50%", "35%"],
-            radius: ["38%", "40%"],
+            radius: ["36%", "40%"],
             clockwise: true,
             avoidLabelOverlap: true,
             hoverOffset: 15,
@@ -62,6 +62,7 @@ export default {
               }
             },
             label: {
+              color: "#fff",
               show: true,
               position: "outside",
               formatter: "{a|{b}：{d}%}\n{hr|}",

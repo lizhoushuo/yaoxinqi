@@ -2,7 +2,7 @@
   <div class="box">
     <div class="title">
       <div class="l">
-        <img src="../assets/百香果数字运营中心/容器 47@3x.png" alt="" />
+        <img src="../assets/imgs/容器 47@3x.png" alt="" />
         <div class="tit">收成详情</div>
       </div>
       <div class="btn">
@@ -102,7 +102,7 @@ export default {
 .bt2 {
   box-sizing: border-box;
   border: 1px solid #36685bb7;
-  padding: 6px 26px;
+  padding: 6px 10px;
   box-shadow: inset 1px 1px 20px 4px #4d927698;
   font-size: 14px;
   cursor: pointer;
@@ -117,17 +117,19 @@ export default {
 }
 
 .active {
-  padding: 6px 26px;
+  padding: 6px 10px;
   border-radius: 20px 0 0 20px;
   border-color: rgba(238, 192, 117, 0.719);
   box-shadow: rgb(252 220 107 / 60%) 3px 0px 20px 4px inset;
+  font-size: 14px;
 }
 
 .active2 {
-  padding: 6px 26px;
+  padding: 6px 10px;
   border-radius: 0 20px 20px 0;
   border-color: rgba(238, 192, 117, 0.719);
   box-shadow: rgb(252 220 107 / 60%) 3px 0px 20px 4px inset;
+  font-size: 14px;
 }
 
 .cont {
