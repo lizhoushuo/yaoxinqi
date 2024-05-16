@@ -4,25 +4,28 @@
       <div><img src="../../assets/imgs/容器 47@2x.png" alt="" /><span>地块动态</span></div>
       <button>全部</button>
     </div>
-    <div class="dynamics-content">
-      <div>
-        <div><img src="../../assets/imgs/组 239.png" alt="" /> <span>科研地块 &emsp; 台湾1号</span></div>
-      </div>
-      <div>
+
+    <div class="bb">
+      <div class="dynamics-content">
         <div>
-          <button style="margin-right: 5px">详情</button><button style="margin-right: 5px">详情</button
-          ><button>详情</button>
+          <div><img src="../../assets/imgs/组 239.png" alt="" /> <span>科研地块 &emsp; 台湾1号</span></div>
+        </div>
+        <div>
+          <div>
+            <button style="margin-right: 5px">详情</button><button style="margin-right: 5px">详情</button
+            ><button>详情</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="dynamics-content">
-      <div>
-        <div><img src="../../assets/imgs/组 3030(2).png" alt="" /> <span>科研地块 &emsp; 台湾1号</span></div>
-      </div>
-      <div>
+      <div class="dynamics-content">
         <div>
-          <button style="margin-right: 5px">详情</button><button style="margin-right: 5px">详情</button
-          ><button>详情</button>
+          <div><img src="../../assets/imgs/组 3030(2).png" alt="" /> <span>科研地块 &emsp; 台湾1号</span></div>
+        </div>
+        <div>
+          <div>
+            <button style="margin-right: 5px">详情</button><button style="margin-right: 5px">详情</button
+            ><button>详情</button>
+          </div>
         </div>
       </div>
     </div>
@@ -64,6 +67,12 @@ export default {
       border: #fff;
       color: #fff;
     }
+  }
+  .bb {
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .dynamics-content {
     padding: 10px;

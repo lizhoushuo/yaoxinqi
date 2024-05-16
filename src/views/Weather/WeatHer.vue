@@ -1,82 +1,84 @@
 <template>
   <div class="weather">
     <div class="weather-top"><img src="../../assets/imgs/容器 47@2x.png" alt="" /><span>天气预报</span></div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>今天</span> <span>03/11</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>18°c</span>
-          <div class="wendu"></div>
-          <span>24°c</span>
-        </div>
-      </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>明天</span> <span>03/12</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>12°c</span>
-          <div class="wendu2"></div>
-          <span>30°c</span>
-        </div>
-      </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>周三</span> <span>03/13</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>16°c</span>
-          <div class="wendu3">
-            <div class="a"></div>
+    <div class="bb">
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>今天</span> <span>03/11</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>18°c</span>
+            <div class="wendu"></div>
+            <span>24°c</span>
           </div>
-          <span>32°c</span>
         </div>
       </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>周四</span> <span>03/14</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>12°c</span>
-          <div class="wendu4"><div class="a"></div></div>
-          <span>32°c</span>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>明天</span> <span>03/12</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>12°c</span>
+            <div class="wendu2"></div>
+            <span>30°c</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>周五</span> <span>03/15</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>15°c</span>
-          <div class="wendu5"><div class="a"></div></div>
-          <span>26°c</span>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>周三</span> <span>03/13</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>16°c</span>
+            <div class="wendu3">
+              <div class="a"></div>
+            </div>
+            <span>32°c</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>周六</span> <span>03/16</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>13°c</span>
-          <div class="wendu6"><div class="a"></div></div>
-          <span>18°c</span>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>周四</span> <span>03/14</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>12°c</span>
+            <div class="wendu4"><div class="a"></div></div>
+            <span>32°c</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="weather-content">
-      <div class="weather-content-time">
-        <div><span>周日</span> <span>03/17</span></div>
-        <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
-        <div class="ww">
-          <span>18°c</span>
-          <div class="wendu7"><div class="a"></div></div>
-          <span>20°c</span>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>周五</span> <span>03/15</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>15°c</span>
+            <div class="wendu5"><div class="a"></div></div>
+            <span>26°c</span>
+          </div>
+        </div>
+      </div>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>周六</span> <span>03/16</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>13°c</span>
+            <div class="wendu6"><div class="a"></div></div>
+            <span>18°c</span>
+          </div>
+        </div>
+      </div>
+      <div class="weather-content">
+        <div class="weather-content-time">
+          <div><span>周日</span> <span>03/17</span></div>
+          <div><img src="../../assets/imgs/83.png" alt="" /><span style="color: yellowgreen">晴</span></div>
+          <div class="ww">
+            <span>18°c</span>
+            <div class="wendu7"><div class="a"></div></div>
+            <span>20°c</span>
+          </div>
         </div>
       </div>
     </div>
@@ -107,6 +109,12 @@ export default {
     img {
       margin-right: 10px;
     }
+  }
+  .bb {
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .weather-content {
     color: #fff;
