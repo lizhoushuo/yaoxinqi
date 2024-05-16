@@ -11,15 +11,15 @@
         padding-top: 10px;
       "
     >
-      <img src="../../assets/imgs/容器 47.png" alt="" />
-      <i>病虫害监测预警</i>
+      <img src="../../assets/imgs/容器 47@2x.png" alt="" style="vertical-align: middle" />
+      <i style="margin-left: 10px">病虫害监测预警</i>
     </div>
-    <div style="width: 100%; height: 1px; background-color: #f2f2f2"></div>
-    <div style="display: flex; justify-content: space-around; margin-top: 30px">
+    <div style="width: 100%; height: 0.5px; background-color: #4d9276"></div>
+    <div style="display: flex; justify-content: space-around; height: 80%; align-items: center">
       <div>
         <img src="../../assets/imgs/图层 2.png" alt="" />
       </div>
-      <div style="width: 1px; height: 60px; background-color: #f2f2f2"></div>
+      <div style="width: 0.5px; height: 60px; background-color: #4d9276"></div>
       <div style="color: #fff; font-size: 12px; width: 150px">
         百香果适应性强，对土壤要求不高，砂质壤土、红壤土、高岭土等排灌良好的平地或坡地都能种植，绝不能种植在长期低洼积水地方。
       </div>

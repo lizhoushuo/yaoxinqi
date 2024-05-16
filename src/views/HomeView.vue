@@ -71,7 +71,6 @@ export default {
   background-image: url(../assets/imgs/bg\(1\).png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
   background-color: #081512;
 
   .decoration {
