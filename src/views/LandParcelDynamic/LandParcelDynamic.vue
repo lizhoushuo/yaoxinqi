@@ -45,7 +45,7 @@ export default {
   height: 100%;
   .dynamics-top {
     width: 100%;
-    height: 50px;
+    // height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,8 @@ export default {
     }
     button {
       width: 60px;
-      height: 30px;
+      // height: 30px;
+      padding: 5px;
       border-radius: 20px;
       font-size: 12px;
       background-color: rgb(25, 45, 37);
@@ -73,33 +74,33 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-  .dynamics-content {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    div:nth-of-type(1) {
-      color: #8aa96b;
-      font-size: 13px;
-      img {
-        vertical-align: middle;
-        margin-right: 10px;
-        width: 25.59px;
-        height: 25.59px;
+    .dynamics-content {
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      div:nth-of-type(1) {
+        color: #8aa96b;
+        font-size: 13px;
+        img {
+          vertical-align: middle;
+          margin-right: 10px;
+          width: 25.59px;
+          height: 25.59px;
+        }
       }
-    }
-    div:nth-of-type(2) {
-      color: #8aa96b;
-      font-size: 13px;
-      button {
-        width: 60px;
-        height: 30px;
-        border-radius: 20px;
-        font-size: 12px;
-        background-color: rgb(25, 45, 37);
-        border: #fff;
-        color: #fff;
+      div:nth-of-type(2) {
+        color: #8aa96b;
+        font-size: 13px;
+        button {
+          width: 60px;
+          padding: 5px;
+          border-radius: 20px;
+          font-size: 12px;
+          background-color: rgb(25, 45, 37);
+          border: #fff;
+          color: #fff;
+        }
       }
     }
   }

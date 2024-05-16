@@ -2,7 +2,7 @@
   <div class="box">
     <div class="title">
       <div class="l">
-        <img src="../assets/imgs/容器 47@3x.png" alt="" />
+        <img src="../assets/imgs/容器 47@2x.png" alt="" />
         <div class="tit">收成详情</div>
       </div>
       <div class="btn">
@@ -65,18 +65,18 @@ export default {
   background-color: #23555388;
   color: white;
   border-radius: 10px;
-  box-shadow: inset 1px 1px 20px 4px #4d9276;
+  /* box-shadow: inset 1px 1px 20px 4px #4d9276; */
   box-sizing: border-box;
 }
-
 .title {
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
+  padding: 10px;
   border-bottom: 1px solid #4d9276;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   justify-content: space-between;
 }
 
@@ -87,22 +87,26 @@ export default {
 
 .tit {
   margin-left: 10px;
-  font-weight: 700;
+  /* font-weight: 700; */
   transform: skew(-10deg, 0deg);
-  font-size: 22px;
+  font-size: 14px;
   letter-spacing: 5px;
 }
 
 .btn {
   display: flex;
   align-items: center;
+  font-size: 13px;
 }
-
+.btn div {
+  font-size: 12px;
+  padding: 6px 14px;
+}
 .bt1,
 .bt2 {
   box-sizing: border-box;
   border: 1px solid #36685bb7;
-  padding: 6px 10px;
+  /* padding: 6px 10px; */
   box-shadow: inset 1px 1px 20px 4px #4d927698;
   font-size: 14px;
   cursor: pointer;
@@ -117,52 +121,57 @@ export default {
 }
 
 .active {
-  padding: 6px 10px;
+  padding: 6px 14px;
   border-radius: 20px 0 0 20px;
   border-color: rgba(238, 192, 117, 0.719);
   box-shadow: rgb(252 220 107 / 60%) 3px 0px 20px 4px inset;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
-
 .active2 {
-  padding: 6px 10px;
+  padding: 6px 14px;
   border-radius: 0 20px 20px 0;
   border-color: rgba(238, 192, 117, 0.719);
   box-shadow: rgb(252 220 107 / 60%) 3px 0px 20px 4px inset;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .cont {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 30px;
+  /* padding: 0 30px; */
+  display: flex;
+  height: calc(100% - 25%);
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .jgq,
 .jgh {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .end {
   margin-top: 6px;
   color: #ccda92;
   font-weight: 700;
+  font-size: 12px;
 }
 
 .dec {
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .hr {
   width: 100%;
   height: 1px;
   background: linear-gradient(to right, #49776700, #2e9b75, #508f7900);
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .it {
   width: 30%;
-  height: 50%;
+  margin-left: 20px;
 }
 </style>

@@ -1,10 +1,12 @@
 <template>
   <div class="box">
     <div class="title">
-      <img src="../assets/imgs/容器 47@3x.png" alt="" />
+      <img src="../assets/imgs/容器 47@2x.png" alt="" />
       <div class="tit">土壤肥力分析</div>
     </div>
-    <div id="myChart2" style="width: 100%; height: 100%"></div>
+    <div class="nn">
+      <div id="myChart2" style="width: 100%; height: 100%"></div>
+    </div>
   </div>
 </template>
 
@@ -35,22 +37,16 @@ export default {
       ]
       myChart.setOption({
         color: colorList,
-        title: {
-          x: "center",
-          y: "center",
-          textStyle: {
-            color: "#fff",
-            fontSize: 15
-          }
-        },
+
         tooltip: {
           trigger: "item"
         },
         series: [
           {
             type: "pie",
-            center: ["50%", "35%"],
-            radius: ["36%", "40%"],
+            center: ["50%", "50%"],
+            radius: ["50%", "60%"],
+            height: 130,
             clockwise: true,
             avoidLabelOverlap: true,
             hoverOffset: 15,
@@ -62,27 +58,19 @@ export default {
               }
             },
             label: {
-              color: "#fff",
               show: true,
               position: "outside",
               formatter: "{a|{b}：{d}%}\n{hr|}",
               rich: {
-                // hr: {
-                // 	backgroundColor: 't',
-                // 	borderRadius: 3,
-                // 	width: 2,
-                // 	height: 1,
-                // 	padding: [3, 3, 0, -12]
-                // },
                 a: {
-                  padding: [-30, 15, -20, 15]
+                  padding: [0, -100, 0, -100]
                 }
               }
             },
             labelLine: {
               normal: {
-                length: 10,
-                length2: 100,
+                length: 1,
+                length2: 120,
                 lineStyle: {
                   width: 1
                 }
@@ -101,17 +89,15 @@ export default {
 .box {
   width: 100%;
   height: 100%;
-  background-color: #23555388;
   color: white;
   border-radius: 10px;
-  box-shadow: inset 1px 1px 20px 4px #4d9276;
   box-sizing: border-box;
 }
 
 .title {
   box-sizing: border-box;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid #4d9276;
   display: flex;
   align-items: center;
@@ -120,9 +106,12 @@ export default {
 
 .tit {
   margin-left: 10px;
-  font-weight: 700;
+  /* font-weight: 700; */
   transform: skew(-10deg, 0deg);
-  font-size: 22px;
+  font-size: 14px;
   letter-spacing: 5px;
+}
+.nn {
+  width: 100%;
 }
 </style>

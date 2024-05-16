@@ -5,28 +5,28 @@
       <div>
         <div class="imgs">
           <img src="../assets/imgs/组 3030@3x.png" alt="" />
-        </div>
-        <div class="desc">
-          <p>种植基地</p>
-          <p style="color: #777033"><font>729</font>m²</p>
+          <div class="desc">
+            <p>种植基地</p>
+            <p style="color: #777033"><font>729</font>m²</p>
+          </div>
         </div>
       </div>
       <div>
         <div class="imgs">
           <img src="../assets/imgs/组 3030@3x(1).png" alt="" />
-        </div>
-        <div class="desc">
-          <p>种植人数</p>
-          <p><font>52</font>人</p>
+          <div class="desc">
+            <p>种植人数</p>
+            <p><font>52</font>人</p>
+          </div>
         </div>
       </div>
       <div>
         <div class="imgs">
           <img src="../assets/imgs/组 3030@3x(2).png" alt="" />
-        </div>
-        <div class="desc">
-          <p>地块数量</p>
-          <p><font>36</font>个</p>
+          <div class="desc">
+            <p>地块数量</p>
+            <p><font>36</font>个</p>
+          </div>
         </div>
       </div>
     </div>
@@ -64,13 +64,13 @@ export default {
   height: 100%;
   display: grid;
   grid-template:
-    "a a a a a a " 1fr
-    "b b b b b b " 1fr
-    "b b b b b b " 1fr
-    "c c c c c c " 1fr
-    "c c c c c c " 1fr
-    "c c c c c c " 1fr
-    /1fr 1fr 1fr 1fr 1fr 1fr;
+    "a a a a a  " 1fr
+    "b b b b b  " 1fr
+    "b b b b b  " 1fr
+    "c c c c c  " 1fr
+    "c c c c c  " 1fr
+    "c c c c c  " 1fr
+    /1fr 1fr 1fr 1fr 1fr;
 }
 .outline div:nth-of-type(1) {
   grid-area: a;
@@ -93,16 +93,10 @@ export default {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   div {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .desc {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       font-size: 12px;
     }
     img {
@@ -147,5 +141,10 @@ export default {
 }
 .outline div:nth-of-type(4) {
   grid-area: d;
+}
+.imgs {
+  img {
+    vertical-align: middle;
+  }
 }
 </style>

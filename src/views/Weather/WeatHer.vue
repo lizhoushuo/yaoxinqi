@@ -98,12 +98,11 @@ export default {
   height: 100%;
   .weather-top {
     width: 100%;
-    height: 50px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #fff;
     font-size: 13px;
-    padding: 10px;
+    padding: 12px 10px;
     box-sizing: border-box;
     color: #fff;
     img {
@@ -119,7 +118,7 @@ export default {
   .weather-content {
     color: #fff;
     font-size: 12px;
-    padding: 10px;
+    padding: 0 10px;
     box-sizing: border-box;
     .weather-content-time {
       display: flex;
