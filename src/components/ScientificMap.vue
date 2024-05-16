@@ -117,14 +117,17 @@ export default {
   width: 100%;
   height: 100%;
   position: relative;
+
   img {
     width: 44px;
     height: 33px;
   }
+
   .item {
     position: absolute;
-    top: 22px;
-    left: 130px;
+    top: 10%;
+    left: 24%;
+
     // position: relative;
     .modal {
       position: absolute;
@@ -132,10 +135,12 @@ export default {
       left: 65px;
     }
   }
+
   .item1 {
     position: absolute;
-    top: 150px;
-    left: 200px;
+    top: 30%;
+    left: 40%;
+
     // position: relative;
     .modal {
       position: absolute;
@@ -143,10 +148,12 @@ export default {
       left: -175px;
     }
   }
+
   .item2 {
     position: absolute;
-    right: 125px;
-    bottom: 105px;
+    right: 42%;
+    bottom: 10%;
+
     // position: relative;
     .modal {
       position: absolute;
@@ -154,10 +161,12 @@ export default {
       bottom: 75px;
     }
   }
+
   .item3 {
     position: absolute;
-    left: 260px;
-    bottom: 95px;
+    left: 70%;
+    bottom: 16%;
+
     .modal {
       position: absolute;
       right: 70px;
@@ -165,34 +174,40 @@ export default {
     }
   }
 }
+
 .modal {
   box-sizing: border-box;
   font-size: 12px;
   // padding:0 10px;
   background-color: #00000096;
   border-radius: 10px;
+
   .top {
     padding: 5px;
     color: #c0ab38;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #c0ab38;
+
     img {
       margin-right: 5px;
       width: 10px;
       height: 10px;
     }
   }
+
   .aside {
     display: flex;
     justify-content: center;
     padding: 5px;
+
     img {
       width: 70px;
       height: 70px;
       margin: 5px;
     }
   }
+
   .footer {
     text-align: center;
     padding: 5px 0;
