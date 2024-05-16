@@ -9,9 +9,13 @@
       <div>
         <LandParcelDynamic></LandParcelDynamic>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div>2</div>
+      <div>
+        <ExpertCom></ExpertCom>
+      </div>
+      <div>
+        <PassionCom></PassionCom>
+      </div>
       <div></div>
       <div></div>
       <div></div>
@@ -22,10 +26,15 @@
 <script>
 import WeatHer from "./Weather/WeatHer.vue"
 import LandParcelDynamic from "./LandParcelDynamic/LandParcelDynamic.vue"
+
+import ExpertCom from "./ExpertCom/ExpertCom.vue"
+import PassionCom from "./PassionCom/PassionCom.vue"
 export default {
   components: {
     WeatHer,
-    LandParcelDynamic
+    LandParcelDynamic,
+    ExpertCom,
+    PassionCom
   },
   data() {
     return {}
