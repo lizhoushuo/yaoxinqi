@@ -125,7 +125,7 @@ export default {
 
   .item {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 24%;
 
     // position: relative;
@@ -139,8 +139,7 @@ export default {
   .item1 {
     position: absolute;
     top: 30%;
-    left: 40%;
-
+    left: 38%;
     // position: relative;
     .modal {
       position: absolute;
@@ -152,8 +151,7 @@ export default {
   .item2 {
     position: absolute;
     right: 42%;
-    bottom: 10%;
-
+    bottom: 20%;
     // position: relative;
     .modal {
       position: absolute;
@@ -164,9 +162,8 @@ export default {
 
   .item3 {
     position: absolute;
-    left: 70%;
-    bottom: 16%;
-
+    left: 68%;
+    bottom: 25%;
     .modal {
       position: absolute;
       right: 70px;

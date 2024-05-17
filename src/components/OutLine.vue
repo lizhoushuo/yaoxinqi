@@ -38,7 +38,7 @@
       <div class="right">
         <div v-for="item in list" :key="item.id">
           <p>{{ item.name }}</p>
-          <p>{{ item.num }}</p>
+          <p style="color: #fff">{{ item.num }}</p>
         </div>
       </div>
     </div>

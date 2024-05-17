@@ -49,7 +49,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(50, 108, 84);
     font-size: 13px;
     padding: 10px;
     box-sizing: border-box;
@@ -64,13 +64,13 @@ export default {
       padding: 5px;
       border-radius: 20px;
       font-size: 12px;
-      background-color: rgb(25, 45, 37);
+      background-color: rgb(38, 87, 67);
       border: #fff;
       color: #fff;
     }
   }
   .bb {
-    height: calc(100% - 50px);
+    height: calc(100% - 25%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -97,9 +97,10 @@ export default {
           padding: 5px;
           border-radius: 20px;
           font-size: 12px;
-          background-color: rgb(25, 45, 37);
+          background-color: rgb(38, 82, 64);
           border: #fff;
           color: #fff;
+          box-sizing: border-box;
         }
       }
     }

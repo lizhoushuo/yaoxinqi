@@ -100,7 +100,7 @@ export default {
     width: 100%;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(50, 109, 85);
     font-size: 13px;
     padding: 12px 10px;
     box-sizing: border-box;

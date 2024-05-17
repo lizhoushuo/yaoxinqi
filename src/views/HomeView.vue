@@ -104,10 +104,10 @@ export default {
 }
 
 .main div {
-  background-color: #23555388;
+  background-color: #18252588;
   color: white;
   border-radius: 10px;
-  box-shadow: inset 1px 1px 20px 4px #4d9276;
+  box-shadow: inset 1px 0 10px #4d9276;
   box-sizing: border-box;
 }
 
