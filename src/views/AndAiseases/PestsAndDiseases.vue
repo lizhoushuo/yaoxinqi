@@ -17,7 +17,7 @@
     <div style="width: 100%; height: 0.5px; background-color: #4d9276; margin-bottom: 5px"></div>
     <div style="display: flex; justify-content: space-around; height: 80%; align-items: center">
       <div>
-        <img src="../../assets/imgs/图层 2@2x.png" alt="" />
+        <img src="../../assets/imgs/图层 2.png" alt="" />
       </div>
       <div style="width: 0.5px; height: 60px; background-color: #4d9276"></div>
       <div style="color: #fff; font-size: 12px; width: 150px">
