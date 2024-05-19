@@ -2,8 +2,12 @@
   <div class="Passion-box">
     <!-- 头部标题 -->
     <header>
-      <img src="../../assets/imgs/容器 47@3x.png" alt="" />
-      <span>百香果基地预警</span>
+      <div class="head-img">
+        <img src="../../assets/imgs/容器 47@3x.png" alt="" />
+      </div>
+      <div class="head-title">
+        <span>百香果基地预警</span>
+      </div>
     </header>
     <!-- 主体部分 -->
     <section>
@@ -68,23 +72,31 @@
   height: 100%;
   background-color: #317f786f;
   box-shadow: inset 1px 1px 20px #11211c;
-  border-radius: .625rem;
+  border-radius: 0.625rem;
 }
 .Passion-box > header {
+  width: 100%;
   height: 25%;
   display: flex;
   align-items: center;
-  border-bottom: .0625rem solid #317f786f;
-  padding: 0 0 0 .9375rem;
-
-  img {
-    width: 1rem;
-    margin-right: .5rem;
+  border-bottom: 0.0625rem solid #317f786f;
+  padding: 0 0 0 15px;
+  .head-img {
+    width: 4%;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    img {
+      width: 100%;
+    }
+  }
+  .head-title {
+    width: 92%;
   }
 }
 section {
   width: 100%;
-  height: 49%;
+  // height: 49%;
   display: flex;
   align-items: center;
   // justify-content: space-around;
@@ -105,13 +117,15 @@ section .section-box {
 
 // 把文字定位到图片中间
 section .section-box .section-image {
-  width: 50px;
+  width: 55px;
+  height: 55px;
   // height: 90px;?
   text-align: center;
   position: relative;
 }
 section .section-box .section-image img {
-  width: 95%;
+  width: 100%;
+  height: 100%;
   // margin: auto;
 }
 section .section-box .section-image span {
@@ -125,15 +139,15 @@ section .section-box .section-image span {
 
 // 改变每个文字的颜色
 section .section-box:nth-child(1):nth-child(1) .section-image span {
-  font-size: .75rem !important;
+  font-size: 0.75rem !important;
   color: red;
 }
 section .section-box:nth-child(2):nth-child(2) .section-image span {
-  font-size: .75rem !important;
+  font-size: 0.75rem !important;
   color: #34645b;
 }
 section .section-box:nth-child(3):nth-child(3) .section-image span {
-  font-size: .75rem !important;
+  font-size: 0.75rem !important;
   color: #7b7b33;
 }
 
@@ -141,7 +155,7 @@ section .section-box:nth-child(3):nth-child(3) .section-image span {
 footer {
   width: 100%;
   height: 28%;
-  font-size: .75rem;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -157,12 +171,12 @@ footer .time-button {
 }
 footer .time-button img {
   width: 70%;
-  height: 1.875rem;
-	margin-left: 1.25rem;
+  height: 30px;
+  margin-left: 1.25rem;
   // line-height: 30px;
 }
 footer .time-button span {
-  font-size: .75rem;
+  font-size: 12px;
   width: 100%;
   position: absolute;
   top: 50%;
@@ -181,22 +195,28 @@ footer .time-button span {
   }
   p:nth-child(2) {
     display: flex;
-    color: black;
+    // color: black;
+  }
+  p:nth-child(1) span:nth-child(2) {
+    color: #b93230;
+  }
+  p:nth-child(2) span:nth-child(2) {
+    color: #b93230;
   }
 
   p:nth-child(1) span:nth-child(1) {
-    color: skyblue;
-    width: 5rem;
+    // color: skyblue;
+    width: 80px;
     display: block;
     margin-right: 5px;
     text-align: right;
   }
   p:nth-child(2) span:nth-child(1) {
-    color: blue;
-    width: 5rem;
+    // color: blue;
+    width: 80px;
     display: block;
     text-align: right;
-    margin-right: .3125rem;
+    margin-right: 0.3125rem;
   }
 }
 
@@ -209,19 +229,24 @@ footer .time-button span {
   }
   p:nth-child(2) {
     display: flex;
-    color: black;
+    // color: black;
   }
-
+  p:nth-child(1) span:nth-child(2) {
+    color: #b93230;
+  }
+  p:nth-child(2) span:nth-child(2) {
+    color: #b93230;
+  }
   p:nth-child(1) span:nth-child(1) {
-    color: skyblue;
-    width: 5rem;
+    // color: skyblue;
+    width: 80px;
     display: block;
     margin-right: 5px;
     text-align: right;
   }
   p:nth-child(2) span:nth-child(1) {
-    color: blue;
-    width: 5rem;
+    // color: blue;
+    width: 80px;
     display: block;
     text-align: right;
     margin-right: 5px;

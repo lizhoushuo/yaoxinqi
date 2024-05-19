@@ -95,31 +95,31 @@ export default {
 <style lang="scss" scoped>
 .weather {
   width: 100%;
-  height: 100%;
+  height: 2.6316rem;
   .weather-top {
     width: 100%;
-    height: 50px;
+    height: 100%;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #fff;
-    font-size: 13px;
-    padding: 10px;
+    font-size: 0.8125rem;
+    padding: 0.625rem;
     box-sizing: border-box;
     color: #fff;
     img {
-      margin-right: 10px;
+      margin-right: 0.625rem;
     }
   }
   .bb {
-    height: calc(100% - 50px);
+    height: calc(100% - 50%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   .weather-content {
     color: #fff;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 0.75rem;
+    padding: 0.625rem;
     box-sizing: border-box;
     .weather-content-time {
       display: flex;
@@ -127,11 +127,11 @@ export default {
       justify-content: space-between;
       span {
         display: inline-block;
-        margin-right: 10px;
+        margin-right: 0.625rem;
       }
       img {
         vertical-align: middle;
-        margin-right: 10px;
+        margin-right: 0.625rem;
       }
       .ww {
         display: flex;

@@ -55,7 +55,7 @@ export default {
     .image {
       position: relative;
       img {
-        width: 100px;
+        width: 100%;
         height: 50px;
       }
       span {

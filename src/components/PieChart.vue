@@ -111,11 +111,16 @@ export default {
 .title {
   box-sizing: border-box;
   width: 100%;
+  height: 30%;
   padding: 20px;
   border-bottom: 1px solid #4d9276;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+#myChart2 {
+  /* padding: 20px 30px;
+	box-sizing: border-box; */
 }
 
 .tit {

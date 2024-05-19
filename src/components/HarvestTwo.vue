@@ -72,7 +72,8 @@ export default {
 .title {
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 30px;
+  height: 30%;
+  /* padding: 20px 30px; */
   border-bottom: 1px solid #4d9276;
   display: flex;
   align-items: center;
@@ -81,15 +82,23 @@ export default {
 }
 
 .l {
+  width: 48%;
+
+  /* width: 16px; */
+  height: 16px;
   display: flex;
   align-items: center;
 }
-
+.l img {
+  height: 16px;
+  /* width: 100%; */
+  width: 16px;
+}
 .tit {
-  margin-left: 10px;
+  width: 48%;
   font-weight: 700;
   transform: skew(-10deg, 0deg);
-  font-size: 22px;
+  font-size: 16px;
   letter-spacing: 5px;
 }
 

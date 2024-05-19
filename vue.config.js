@@ -25,7 +25,7 @@ module.exports = defineConfig({
     // 是否启用 https
     https: false,
     // npm run serve 时是否直接打开浏览器
-    open: true,
+    open: false,
     proxy: {
       // "/api": {
       //   // 配置代理默认开启target方式
