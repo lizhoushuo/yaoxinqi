@@ -72,44 +72,58 @@ export default {
     "c c c c c  " 1fr
     /1fr 1fr 1fr 1fr 1fr;
 }
+
 .outline div:nth-of-type(1) {
   grid-area: a;
   //  border-bottom:1px solid #ccc;
   display: flex;
   align-items: center;
+
   .img1 {
     width: 20px;
     height: 20px;
     margin: 0 10px;
   }
 }
+
 .outline div:nth-of-type(2) {
   grid-area: b;
 }
+
 .top {
   border-bottom: 1px solid #478671;
 }
+
 .tab {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   div {
     .desc {
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       font-size: 12px;
     }
+
     img {
       width: 40px;
       height: 40px;
     }
   }
 }
+
 .outline div:nth-of-type(3) {
   grid-area: c;
   display: flex;
   justify-content: center;
   align-items: center;
+
   .left {
     width: 50%;
     height: 100%;
@@ -123,11 +137,13 @@ export default {
     background-size: cover;
     background-position: top;
   }
+
   .right {
     width: 50%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+
     div {
       display: flex;
       flex-direction: column;
@@ -139,9 +155,11 @@ export default {
     }
   }
 }
+
 .outline div:nth-of-type(4) {
   grid-area: d;
 }
+
 .imgs {
   img {
     vertical-align: middle;
